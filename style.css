@@ -107,7 +107,8 @@ a {
 .indented-extra {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
 }
 
 .padded-vertical {    
@@ -187,13 +188,13 @@ a {
     background: #607f9e;
     width: auto;
     border-radius: 5px;
+    -webkit-transition: 120ms ease-out 0s;
+    -moz-transition: 120ms ease-out 0s;
+    -o-transition: 120ms ease-out 0s;
+    transition: 120ms ease-out 0s;
 }
 .button:hover {
     background: #819ab3;
-    -webkit-transition: 300ms ease-out 0s;
-    -moz-transition: 300ms ease-out 0s;
-    -o-transition: 300ms ease-out 0s;
-    transition: 300ms ease-out 0s;
 }
 
 .button-wrapper {
@@ -203,12 +204,58 @@ a {
     text-align:center;
 }
 
-#img-buttons img:hover {
+.thumb-button {
+    display: table-cell;
+    vertical-align: middle;
+    color: #eee;
+    font-size: 2em;
+    font-weight: bold;
+    background: #607f9e;
+    line-height: 60px;
+    height: 60px;
+    padding: 0px 5px;
+    -webkit-transition: 120ms ease-out 0s;
+    -moz-transition: 120ms ease-out 0s;
+    -o-transition: 120ms ease-out 0s;
+    transition: 120ms ease-out 0s;    
+}
+.thumb-button:hover {
+    background: #819ab3;
+}
+
+.rounded-TR {
+    border-radius: 0px 5px 0px 0px;    
+}
+.rounded-BR {
+    border-radius: 0px 0px 5px 0px;    
+}
+
+#rounded-left img {
+    border-radius: 5px 0px 0px 5px;
+}
+
+#img-buttons-t img {
+    -webkit-transition: 120ms ease-out 0s;
+    -moz-transition: 120ms ease-out 0s;
+    -o-transition: 120ms ease-out 0s;
+    transition: 120ms ease-out 0s;
+    border-radius: 0px 5px 0px 0px;
+}
+
+#img-buttons-t img:hover {
     opacity: 0.8;
-    -webkit-transition: 300ms ease-out 0s;
-    -moz-transition: 300ms ease-out 0s;
-    -o-transition: 300ms ease-out 0s;
-    transition: 300ms ease-out 0s;
+}
+
+#img-buttons-b img {
+    -webkit-transition: 120ms ease-out 0s;
+    -moz-transition: 120ms ease-out 0s;
+    -o-transition: 120ms ease-out 0s;
+    transition: 120ms ease-out 0s;
+    border-radius: 0px 0px 5px 0px;
+}
+
+#img-buttons-b img:hover {
+    opacity: 0.8;
 }
 
 .line {
