@@ -1,0 +1,65 @@
+
+
+<<!-- h2>Recommended Add-ons</h2>
+<div class="center-column">
+    <a href="http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/System/Project_Timer">
+    <div class="addon">
+        <div id="addon-title">
+            <h3>Project Timer</h3>
+            <p><i>Author: Martin Zielinski</i></p>
+        </div>
+        <p>
+            Track the amount of time spent in a blend (excluding inactivity)
+        </p>
+    </div>
+    </a>
+<br/>
+    <a href="https://github.com/stuffmatic/blam">
+    <div class="addon">
+        <div id="addon-title">
+            <h3>BLAM</h3>
+            <p><i>Author: Per Gantelius</i></p>
+        </div>
+        <p>
+            Match your scene camera to a real one using only an image.
+        </p>
+    </div>
+    </a>
+<br/>
+    <a href="http://blenderartists.org/forum/showthread.php?323754-Addon-Edit-Addon-Sources-Operator">
+    <div class="addon">
+        <div id="addon-title">
+            <h3>Edit Addon Source</h3>
+            <p><i>Author: scorpion81</i></p>
+        </div>
+        <p>
+            Useful for coders, check the source of any add-on with one click.
+        </p>
+    </div>
+    </a>
+<br/>
+    <a href="http://blenderartists.org/forum/showthread.php?336421-Addon-Alarm-and-Shutdown">
+    <div class="addon">
+        <div id="addon-title">
+            <h3>Alarm and Shutdown</h3>
+            <p><i>Authors: Sergey Metelskiy, Anton Nikitin</i></p>
+        </div>
+        <p>
+            Have your computer shut down or notify you when a render is finished.
+        </p>
+    </div>
+    </a>
+<br/>
+    <a href="http://pablovazquez.org/amaranth/">
+    <div class="addon">
+        <div id="addon-title">
+            <h3>Amaranth</h3>
+            <p><i>Authors: Pablo Vazquez, Bassam Kurdali, Sergey Sharybin</i></p>
+        </div>
+        <p>
+            A collection of little tools to speed up your workflow.
+        </p>
+    </div>
+    </a>
+<br/>
+</div> -->
