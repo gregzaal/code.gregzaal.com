@@ -23,8 +23,20 @@
     <a href="http://code.gregzaal.com/"><h1>code.gregzaal.com</h1></a>
 </div>
 
-<div class="page-title">
-    Node Wrangler
+<div class='nav-bar'>
+<table border="0" cellspacing="0" width="100%">
+    <tr>
+        <td>
+            <i class="nav-button fa fa-home fa-fw fa-2x"></i>
+        </td>
+        <td class="page-title">
+            Node Wrangler
+        </td>
+        <td align="right">
+            <i class="nav-button fa fa-question-circle fa-fw fa-2x"></i>
+        </td>
+    </tr>
+</table>
 </div>
 
 <div class="block-full-wrapper">
@@ -108,9 +120,10 @@
                         <b>Greater Than:</b> <i>Ctrl + '>'</i><br/>
                         <b>Less Than:</b> <i>Ctrl + '<'</i><br/>
                     </p>                    
-                    <p class="indented-extra">
-                        There are even more specific merging operations with their own hotkeys - too many to list here, so take a look at the hotkey list.
-                    </p>
+                    <div class="note">
+                        <h4>Note:</h4>
+                        <p>There are even more specific merging operations with their own hotkeys - too many to list here, so take a look at the <a href="#hotkey-list">hotkey list</a>.</p>
+                    </div>
                 </td>
                 <td>
                     <div align="right">
@@ -149,8 +162,19 @@
                 <td>
                     <h3>Batch Change Blend Type / Math Operation</h3>
                     <p class="indented-extra">
-                        Blahblahblahblah
+                        Change the blend type of all selected mix nodes and math nodes using:
                     </p>
+                    <p class="indented-extra">
+                        <b>Mix:</b> <i>Alt + 0</i><br/>
+                        <b>Add:</b> <i>Alt + '+'</i><br/>
+                        <b>Subtract:</b> <i>Alt + '-'</i><br/>
+                        <b>Multiply:</b> <i>Alt + '*'</i><br/>
+                        <b>Divide:</b> <i>Alt + '/'</i><br/>
+                        <b>Greater Than:</b> <i>Alt + '>'</i><br/>
+                        <b>Less Than:</b> <i>Alt + '<'</i><br/>
+                        <b>Cycle Up:</b> <i>Alt + &#8593;</i><br/>
+                        <b>Cycle Down:</b> <i>Alt + &#8595;</i><br/>
+                    </p>   
                 </td>
                 <td>
                     <div align="right">
@@ -163,7 +187,14 @@
                 <td>
                     <h3>Swap Links</h3>
                     <p class="indented-extra">
-                        Blahblahblahblah
+                        This tool allows you to swap and cycle links in several situations:
+                    </p>
+                    <p class="indented-extra">
+                        <ul>
+                            <li>Select two nodes, use <i>Alt + S</i> to swap their output connections.</li>
+                            <li>Select one node with one connected input, use <i>Alt + S</i> to cycle the connection through the sockets.</li>
+                            <li>Select one node with two connected inputs, use <i>Alt + S</i> to swap the two connections. If more then two inputs are linked, the two with matching types will be swapped (e.g: a Mix node's two color inputs). </li>
+                        </ul>
                     </p>
                 </td>
                 <td>
@@ -177,7 +208,7 @@
                 <td>
                     <h3>Frame Selected</h3>
                     <p class="indented-extra">
-                        Blahblahblahblah
+                        Wrap selected nodes in a frame by pressing <i>Shift + P</i> (similar to using the existing function, <i>Ctrl + J </i>), then press <i>F6</i> to set the color and label of the frame node.
                     </p>
                 </td>
                 <td>
@@ -349,7 +380,7 @@
     </div>
 </div>
 
-<h2>Hotkey List</h2>
+<a name="hotkey-list"><h2>Hotkey List</h2></a>
 <div class="center-column">
     <div class="block">
     <p>

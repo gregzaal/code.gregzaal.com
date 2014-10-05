@@ -30,6 +30,10 @@ h1 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    -webkit-transition: 500ms  cubic-bezier(0,0,0.2,1) 0s;
+    -moz-transition: 500ms  cubic-bezier(0,0,0.2,1) 0s;
+    -o-transition: 500ms  cubic-bezier(0,0,0.2,1) 0s;
+    transition: 500ms  cubic-bezier(0,0,0.2,1) 0s;
 }
 
 h1:hover {   
@@ -64,6 +68,12 @@ h3 {
     padding-left: 10px;
 }
 
+h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #82A8CF;
+    margin-left: 1em;
+}
+
 #text br {
    display: block;
    margin: 4px 0;
@@ -81,15 +91,18 @@ a {
     background-image: url('images/bg_blue.png');
 }
 
+.nav-bar {
+    color: #eee;    
+    width: 100%;
+    background: #1d2331;
+}
+
 .page-title {
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'ChangaOne';
     font-size: 2.3em;
-    color: #eee;    
     text-align:center;
-    width: 100%;
-    background: #1d2331;
 }
 
 .footer {
@@ -97,6 +110,27 @@ a {
     font-size: 0.8em;
     color: #ddd;
     background: #1d2331;
+}
+
+ul {
+    padding-left: 50px;    
+}
+
+.note {
+    margin-left: 28px;
+    margin-right: 48px;
+    padding: 10px 20px;
+    color: #888;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.note a:link {
+    color: #82A8CF;
+}
+
+.note a:visited {
+    color: #82A8CF;
 }
 
 .indented {
@@ -202,6 +236,20 @@ a {
     padding-bottom: 50px;
     width: 100%;
     text-align:center;
+}
+
+.nav-button {
+    color: #eee;    
+    background: #1d2331;
+    padding: 10px;
+    -webkit-transition: 120ms ease-out 0s;
+    -moz-transition: 120ms ease-out 0s;
+    -o-transition: 120ms ease-out 0s;
+    transition: 120ms ease-out 0s; 
+}
+
+.nav-button:hover {
+    color: #82A8CF;    
 }
 
 .thumb-button {
