@@ -234,6 +234,12 @@ ul {
         margin-right: 4px;
     }
 }
+.block-full-inner {
+    display: block;
+    margin: 2em 0;
+    line-height:22px;
+    content: " ";
+}
 
 @media screen and (max-width:1200px){
     video {
@@ -267,8 +273,7 @@ ul {
 }
 
 .button-wrapper {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    vertical-align: middle;
     width: 100%;
     text-align:center;
 }
