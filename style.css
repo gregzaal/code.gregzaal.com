@@ -74,6 +74,10 @@ h4 {
     margin-left: 1em;
 }
 
+ol {
+    padding-left: 55px;
+}
+
 #text br {
    display: block;
    margin: 4px 0;
@@ -102,7 +106,10 @@ a {
     padding-bottom: 10px;
     font-family: 'ChangaOne';
     font-size: 2.3em;
+    color: #eee;    
     text-align:center;
+    width: 100%;
+    background: #1d2331;
 }
 
 .footer {
@@ -114,6 +121,11 @@ a {
 
 ul {
     padding-left: 50px;    
+}
+
+.img-main {
+    margin: 8px;
+    text-align: center;
 }
 
 .note {
@@ -165,6 +177,29 @@ ul {
         margin-left: 4px;
         margin-right: 4px;
     }
+}
+
+.tile-size-table {
+    color: #eee;
+    padding: 1em 10em;
+}
+.tile-size-table table {
+    border: #131926;
+    border-style: solid;
+    border-width: 4px;
+    border-collapse: collapse;
+    background-color: #272d3c;
+}
+.tile-size-table td {
+    border: #1d2331;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0.3em;
+}
+
+.tile-size-table-title {
+    background-color: #1d2331;
+    font-weight: 900;
 }
 
 .center-align {
